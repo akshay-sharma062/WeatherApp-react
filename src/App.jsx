@@ -15,7 +15,7 @@ function App() {
 
   const searchWeatherHandle=()=>{
     if(City !==""){
-      axios.get(`http://api.weatherapi.com/v1/current.json?key=969eacd94fd14050846105856250602&q=${City}&aqi=yes`
+      axios.get(`https://api.weatherapi.com/v1/current.json?key=969eacd94fd14050846105856250602&q=${City}&aqi=yes`
           ).then(
             (response)=>{
               // console.log(response.data)
