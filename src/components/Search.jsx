@@ -13,7 +13,7 @@ function Search(props) {
       />
       <button
         onClick={props.searchWeather}
-        className="sm:p-2 sm:h-15 fl font-bold sm:text-3xl mt-4 sm:mx-2 border-2 rounded-xl bg-blue-950 text-white border-white cursor-pointer hover:bg-amber-200 hover:text-black hover:shadow-2xl hover:shadow-amber-50 duration-700 "
+        className="p-2 sm:h-15 fl font-bold sm:text-3xl mt-4 sm:mx-2 border-2 rounded-xl bg-blue-950 text-white border-white cursor-pointer hover:bg-amber-200 hover:text-black hover:shadow-2xl hover:shadow-amber-50 duration-700 "
       >
         Search
       </button>
