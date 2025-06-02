@@ -3,7 +3,7 @@ import React from 'react'
 export default function Result({ resultData }) {
   return (
     <div className='sm:mt-10 mt-4 text-amber-300 shadow-black hover:text-amber-200 duration-1000 '>
-      <h1 className='sm:text-6xl text-3xl text-center'> {resultData?.location?.name ?? "Search Your City"}</h1>
+      <h1 className='sm:text-6xl md:text-4xl text-3xl text-center'> {resultData?.location?.name ?? "Search Your City"}</h1>
       <div className='sm:flex justify-around mt-4 sm:text-2xl'>
         <div>Max temp : {resultData?.current?.temp_c}deg</div>
       </div>
